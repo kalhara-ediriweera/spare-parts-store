@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# env
+.env
+**/.env
+
+# logs
+*.log
+logs/
+
+# build
+dist/
+build/
+
+# uploads (optional)
+backend/uploads/

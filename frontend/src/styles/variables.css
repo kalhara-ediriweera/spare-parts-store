@@ -1,0 +1,59 @@
+:root {
+  /* Light Theme Variables */
+  --bg-primary: #F8F9FA;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #E9ECEF;
+  --bg-card: rgba(255, 255, 255, 0.7);
+  --bg-glass: rgba(255, 255, 255, 0.45);
+  
+  --text-primary: #1A1D20;
+  --text-secondary: #495057;
+  --text-muted: #868E96;
+  
+  --accent: #FF6B00; /* Energetic Automotive Orange */
+  --accent-hover: #E05E00;
+  --accent-light: rgba(255, 107, 0, 0.1);
+  
+  --border: rgba(0, 0, 0, 0.08);
+  --border-light: rgba(0, 0, 0, 0.04);
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+
+  --font-sans: 'Outfit', 'Inter', -apple-system, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.dark {
+  /* Dark Theme Variables */
+  --bg-primary: #0F1113;
+  --bg-secondary: #171A1D;
+  --bg-tertiary: #212529;
+  --bg-card: rgba(23, 26, 29, 0.7);
+  --bg-glass: rgba(23, 26, 29, 0.45);
+  
+  --text-primary: #F8F9FA;
+  --text-secondary: #CED4DA;
+  --text-muted: #6C757D;
+  
+  --accent: #FF7D1A;
+  --accent-hover: #FF8F33;
+  --accent-light: rgba(255, 125, 26, 0.15);
+  
+  --border: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.04);
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.4);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
